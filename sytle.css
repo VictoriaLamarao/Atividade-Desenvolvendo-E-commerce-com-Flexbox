@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(243, 239, 239);
+}
+
+#menu {
+    width: 100%;
+    background: white;
+    display: flex;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+
+logo-site{
+    display: flex;
+    
+}
+
+
+.logo {
+    width: 120px;
+
+    
+}
+
+.menu-nav {
+    margin-left: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;    
+    padding: 0;      
+    gap: 15px;
+    overflow: hidden;    
+    top: 0;
+    
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(24, 196, 96);
+    border-radius: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu-button {
+    height: 40px;           
+    width: 100px;
+   background-color: #0b7dda;
+   border-radius: 5px;
+   color: white;
+   border: none;
+   padding: 5px;   
+   margin-left: 100px;
+   
+}
+
+
+.form-pesquisa {
+    display: block;
+    margin: auto;
+    width: 700px;
+    margin-right: 50px;
+    
+}
+
+.form-pesquisa input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.form-pesquisa button {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    background: rgb(63, 117, 153);
+    border: 1px solid gray;
+    color: white;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.form-pesquisa button:hover {
+    background: #0b7dda;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;    
+    width: 1200px;        
+    gap: 15px;
+    margin-top: 50px;
+    border-color: gray;
+    flex-wrap: wrap;
+    margin: 10px auto;
+
+          
+}
+
+
+.box-item {
+    display: flex;
+    width: 24%;
+    height: 380px;
+    background-color: white ;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+                
+}
+    
+.botao {
+   width: 250px;
+   background-color: #0b7dda;
+   border-radius: 5px;
+   color: white;
+   border: none;
+   padding: 5px;
+   align-items: center;
+   
+}
+      
+.box-item img {
+    height: 40%;  
+
+}
+
+.box-item p {
+    font-size: 20px;
+    
+    
+}
+    
+    
+    
+
+
+
+
